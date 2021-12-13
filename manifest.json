@@ -30,7 +30,7 @@
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
-            "js": ["notify.js"],
+            "js": ["content.js","notify.js"],
             "css": ["content.css"]
         }
     ],
